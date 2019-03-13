@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="s2e" fetch="." />
+  <remote  name="weizhou-chaojixx" fetch="." />
 
-  <default revision="master" remote="s2e" sync-j="4" />
+  <default revision="master" remote="weizhou-chaojixx" sync-j="4" />
 
-  <project name="build-scripts">
+  <project name="build-scripts" revision="arm-support">
     <linkfile src="Dockerfile" dest="Dockerfile"/>
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="Makefile.docker" dest="Makefile.docker"/>
@@ -13,18 +13,18 @@
     <linkfile src="lua" dest="lua"/>
   </project>
 
-  <project name="qemu" revision="v3.0.0-se"/>
+  <project name="qemu-1" path="qemu" revision="uEmu"/>
 
   <project name="libcoroutine"/>
   <project name="libq"/>
   <project name="libfsigcxx" path="libfsigc++"/>
-  <project name="libtcg"/>
-  <project name="libcpu"/>
-  <project name="libvmi"/>
-  <project name="libs2e"/>
-  <project name="libs2eplugins"/>
-  <project name="libs2ecore"/>
-  <project name="klee"/>
+  <project name="libtcg" revision="arm-support"/>
+  <project name="libcpu" revision="uEmu"/>
+  <project name="libvmi" revision="arm-support"/>
+  <project name="libs2e" revision="uEmu"/>
+  <project name="libs2eplugins" revision="uEmu"/>
+  <project name="libs2ecore" revision="uEmu"/>
+  <project name="klee" revision="uEmu"/>
 
   <project name="docs"/>
   <project name="tools"/>
