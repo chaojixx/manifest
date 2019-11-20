@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="s2e" fetch="." />
+  <remote  name="" fetch="." />
 
-  <default revision="master" remote="s2e" sync-j="4" />
+  <default revision="master" remote="weizhou-chaojixx" sync-j="4" />
 
   <project name="build-scripts">
     <linkfile src="Dockerfile" dest="Dockerfile"/>
@@ -13,17 +13,17 @@
     <linkfile src="lua" dest="lua"/>
   </project>
 
-  <project name="qemu" revision="v3.0.0-se"/>
+  <project name="qemu-1" revision="arm-support"/>
 
   <project name="libcoroutine"/>
   <project name="libq"/>
   <project name="libfsigcxx" path="libfsigc++"/>
-  <project name="libtcg" revision="improvement/arm-support"/>
-  <project name="libcpu" revision="improvement/arm-support"/>
-  <project name="libvmi"/>
-  <project name="libs2e" revision="improvement/arm-support"/>
-  <project name="libs2eplugins"/>
-  <project name="libs2ecore"/>
+  <project name="libtcg" revision="arm-support"/>
+  <project name="libcpu" revision="arm-support"/>
+  <project name="libvmi" revision="arm-support"/>
+  <project name="libs2e" revision="arm-support"/>
+  <project name="libs2eplugins" revision="arm-support"/>
+  <project name="libs2ecore" revision="arm-support"/>
   <project name="klee"/>
 
   <project name="docs"/>
