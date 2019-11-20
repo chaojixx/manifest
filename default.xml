@@ -4,7 +4,7 @@
 
   <default revision="master" remote="weizhou-chaojixx" sync-j="4" />
 
-  <project name="build-scripts">
+  <project name="build-scripts" revision="arm-support">
     <linkfile src="Dockerfile" dest="Dockerfile"/>
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="Makefile.docker" dest="Makefile.docker"/>
