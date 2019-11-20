@@ -13,7 +13,7 @@
     <linkfile src="lua" dest="lua"/>
   </project>
 
-  <project name="qemu-1" revision="arm-support"/>
+  <project name="qemu-1" path="qemu" revision="arm-support"/>
 
   <project name="libcoroutine"/>
   <project name="libq"/>
