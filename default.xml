@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="" fetch="." />
+  <remote  name="weizhou-chaojixx" fetch="." />
 
   <default revision="master" remote="weizhou-chaojixx" sync-j="4" />
 
