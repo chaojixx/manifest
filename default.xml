@@ -22,8 +22,8 @@
   <project name="libcpu" revision="arm-support"/>
   <project name="libvmi" revision="arm-support"/>
   <project name="libs2e" revision="arm-support"/>
-  <project name="libs2eplugins-p" revision="arm-support"/>
-  <project name="libs2ecore-p" revision="arm-support"/>
+  <project name="libs2eplugins-p" path="libs2eplugins" revision="arm-support"/>
+  <project name="libs2ecore-p" path="libs2ecore" revision="arm-support"/>
   <project name="klee"/>
 
   <project name="docs"/>
