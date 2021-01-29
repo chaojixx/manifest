@@ -13,6 +13,8 @@
     <linkfile src="lua" dest="lua"/>
   </project>
 
+  <project name="AFL" path="AFL" revision="uEmu"/>
+
   <project name="qemu-1" path="qemu" revision="uEmu"/>
 
   <project name="libcoroutine"/>
